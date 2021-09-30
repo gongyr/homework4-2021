@@ -40,11 +40,11 @@ body {
 }
 
 h1 {
+  color: #c12258;
   font-size: 2em;
   
 
   /*Req 2*/
-  color: #c12258;
   line-height: 2;
   text-align: center;
 
@@ -70,7 +70,7 @@ a {
 
 td {
   text-align: center;
-  border-top: 2px solid black;
+  border-top: 2px solid #000000;
   padding:  10px;
 }
 
@@ -84,9 +84,9 @@ td {
 }
 
 .rowhead {
-  border-right:  2px solid black;
-  border-top: 2px solid black;
-  
+  border-right:  2px solid #000000;
+  border-top: 2px solid #000000;
+  padding: 10px;
 }
 
 table {
@@ -94,7 +94,9 @@ table {
   margin: 0 auto;
   border-radius: 50px;
 }
-
+tr{
+  border-top: 2px solid #000000;
+}
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr th:first-child {
